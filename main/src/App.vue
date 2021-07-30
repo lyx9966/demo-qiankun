@@ -1,9 +1,13 @@
 <template>
   <div id="nav">
+    <div>main</div>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/app2">app2</router-link> |
+    <router-link to="/app3">app3</router-link> 
+    <!-- <router-link to="/app4">app4</router-link> -->
+    <div id="subapp-container"></div>
   </div>
-  <router-view/>
+  <router-view />
 </template>
 
 <style lang="scss">

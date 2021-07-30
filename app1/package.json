@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "yarn serve",
+    "serve": "vue-cli-service serve --port 9901 --open",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
